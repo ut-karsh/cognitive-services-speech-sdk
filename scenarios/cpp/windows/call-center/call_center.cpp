@@ -32,7 +32,7 @@ private:
     const std::string sentimentAnalysisQuery = "?api-version=2022-05-01";
     const std::string conversationAnalysisPath = "/language/analyze-conversations/jobs";
     const std::string conversationAnalysisQuery = "?api-version=2022-10-01-preview;
-    const std::string conversationSummaryModelVersion = latest;
+    const std::string conversationSummaryModelVersion = "latest";
 
     // How long to wait while polling batch transcription and conversation analysis status.
     const int waitSeconds = 10;
